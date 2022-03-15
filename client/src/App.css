@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+#homepage_nav{
+  font-size: x-large;
+}
+
+.container-fluid{
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover{
+  border-bottom: 3px solid black;
+}
+
+.push{
+  margin-left: auto;
+  margin-left: 0;
+}
+
+.pusher{
+  margin: auto;
+}
+
+.upper{
+  margin: 0px 10px;
+  /* content: ""; This is necessary for the pseudo element to work.  */
+  /* display: block; This will put the pseudo element on its own line. */
+  /* margin: 0 auto; */
+  /* width: 50%; Change this to whatever width you want. */
+  /* padding-top: 20px; This creates some space between the element and the border. */
+  /* border-bottom: 1px solid black; This creates the border. Replace black with whatever color you want. */
+}
+
+.nav_img{
+  margin: auto;
+  padding: auto;
+}
+
+a:hover{
+  border-radius: 3px;
+  border-bottom-width: 70%;
+}
+.homepage_image{
+  justify-content: center;
+  align-items: center;
+}
+
+#main_image{
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+.our{
+  text-align: center;
+}
+#infos{
+  font-size: x-large;
+  text-align: center;
+}
+.nav-link{
+  font-size: 1.25rem;
+}
+.active{
+  margin-left: -10rem;
+}
+.last{
+  background-color: #E8BEAC;
+  margin: 0%;
+  padding: 0%;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.contact-us{
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+}
+.contact-us:hover{
+  color: white;
+  border-radius: 30px ;
+}
+#note{
+  margin: 20px;
+}
+.news{
+  background-color: wheat;
+  border-radius: 40px;
+}
+.main_area{
+  padding: 3%;
+  background-color: #FF7557;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.App-header {
+  background-color: #282c34;
+  margin-top: 400px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
